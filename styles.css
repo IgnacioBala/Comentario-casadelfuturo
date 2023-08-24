@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Great+Vibes&family=Montserrat:wght@200;400;800&family=Nabla&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario: rgb(150, 131, 255);
+    --color-secundario: rgba(243, 153, 243, 0.897);
+    --color-terciario:rgb(61, 132, 238);
+    --black: #000;
+}
+
+
+
+
+/* input */
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+
+    /* propiedades de flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    font-family: 'Silkscreen', cursive;
+    text-decoration-color: aliceblue;
+}
+
+/* contenedor del com */
+.contenedor-input {
+    background-color: var(--color-secundario);
+    padding: 24px;
+    border: 4px double var(--black);
+    border-radius: 20%;
+}
+
+h1 {
+    text-shadow: 4px 4px 0px var(--black);
+}
+
+.boton {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05b902eb-5334-40f7-8aa1-c6feab2c69f2/d10bv9e-cfe921a9-2cc2-4bc9-baeb-0e127145085e.png/v1/fill/w_344,h_400,q_80,strp/timmy_turner_by_dianavigo_d10bv9e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDAwIiwicGF0aCI6IlwvZlwvMDViOTAyZWItNTMzNC00MGY3LThhYTEtYzZmZWFiMmM2OWYyXC9kMTBidjllLWNmZTkyMWE5LTJjYzItNGJjOS1iYWViLTBlMTI3MTQ1MDg1ZS5wbmciLCJ3aWR0aCI6Ijw9MzQ0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yoIb6Lly5l-qgZS0kvYrO41cLcoHattDSfGtJrwO3Ig");
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: var(--color-primario);
+    padding: 4px 16px;
+    border: 2px solid var(--black);
+    cursor: pointer;
+    box-shadow: 10px 8px 10px var(--black);
+    transition: all 1s;
+}
+
+.boton:hover {
+
+    background-image: url("https://costumesheaven.b-cdn.net/wp-content/uploads/2022/07/457.jpg");
+
+    transform: translateY(-2px);
+
+
+}
+
+.boton:active {
+    transform: translate(2px, 4px);
+}
+
+.input {
+    background-color: var(--color-primario);
+    padding: 4px 16px;
+    border: 2px solid var(--black)
+}
+
+.input:focus,
+.input:active {
+    background-color: darkmagenta;
+    border: 2px solid var(--black);
+    outline: none;
+}
+
+header, footer{
+    text-align: center;
+    padding: 24px;
+    color:black;
+    background-color:var(--color-secundario) ;
+    border-radius: 20%;
+    
+}   
+
+
+
